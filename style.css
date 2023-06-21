@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@200&display=swap');
+
+
+:root {
+    --cor-um: #F07E5A;
+    --cor-dois: #F7EBD6;
+    --cor-tres: #7D1D14;
+    --cor-quatro: #000000;
+    --cor-cinco: #D9B5A9;
+}
+
+.cabecalho_top {
+    background-color: var(--cor-um);
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    padding: 0% 45% 0% 45%;
+}
+
+.cabecalho_menu {
+    background-color: var(--cor-dois);
+    display: flex;
+    flex-direction: row;  
+}
+
+.cabecalho_menu_link {
+    font-family: 'Raleway', sans-serif;
+    color: var(--cor-tres);
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    padding-top: 1%;
+    padding-left: 6%;
+    padding-right: 6%;
+    gap: 30px;
+}
+
+.cabecalho_menu_principal {
+    font-family: 'Raleway', sans-serif;
+    color: var(--cor-quatro);
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    padding-top: 0.6%;
+    padding-left: 9%;
+    padding-right: 9%;
+    gap: 25px;
+}
+
+.body {
+    background-color: var(--cor-dois);
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 15%;
+    gap: 10%;
+}
+
+.body_imagem {
+    transform: scale(0.8);
+}
+
+.body_texto_titulo {
+    font-family: 'Playfair Display', sans-serif;
+    color: var(--cor-quatro);
+    font-size: 40px;
+    text-align: right;
+    padding-top: 5%;
+    font-weight: 400;
+}
+
+.body_texto {
+    font-family: 'Raleway', sans-serif;
+    color: var(--cor-quatro);
+    text-align: right;
+    font-size: 24px;
+}
+
+.body_texto_links {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding-top: 5%;
+    float: right;
+}
+
+.rodape {
+    background-color: var(--cor-cinco);
+    display: flex;
+    justify-content: center;
+}
+
+.rodape_texto {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: var(--cor-quatro);
+
+}
