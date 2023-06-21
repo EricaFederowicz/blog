@@ -98,5 +98,61 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     color: var(--cor-quatro);
-
 }
+
+
+@media (max-width: 750px) {
+    .cabecalho_top {
+      padding-left: 40%;
+    }
+  
+    .cabecalho_menu {
+      flex-direction: column;
+    }
+  
+    .cabecalho_menu_link{
+        padding: 2% 4%;
+      font-size: 18px;
+    }
+    .cabecalho_menu_principal {
+      padding: 2% 4%;
+      font-size: 25px;
+    }
+  
+    .body {
+      flex-direction: column;
+      padding: 5% 10%;
+    }
+  
+    .body_imagem {
+      transform: scale(0.8);
+    }
+  
+    .body_texto_titulo {
+      text-align: center;
+      padding-top: 2%;
+      font-size: 35px;
+    }
+  
+    .body_texto {
+      text-align: center;
+      font-size: 20px;
+    }
+  
+    .body_texto_links {
+      flex-direction: row;
+      padding-top: 4%;
+      text-align: center;
+      gap: 20%;
+    }
+  
+    .rodape {
+      padding: 5%;
+    }
+
+    .rodape_texto {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        color: var(--cor-quatro);
+    }
+  }
